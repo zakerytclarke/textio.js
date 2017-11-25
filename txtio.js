@@ -1,4 +1,4 @@
-document.write("<h1>Txt I/O Terminal</h1><p id='txtio'></p>");
+document.write("<h1 id='txtiotitle'>Txt I/O Terminal</h1><p id='txtio'></p>");
 function textio(){
 alert("Text I/O\nCreated by Zakery Clarke\nMIT License 11/25/2017\n");
 }
