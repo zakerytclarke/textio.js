@@ -1,4 +1,4 @@
-document.write("<p id='txtio' style='font-family:monospace;font:outline;font-size:30px;width:100%;height:100%;position:absolute;padding:30px;top:0px;left:20px;'>Txt I/O Terminal<br>Created by Zakery Clarke<br>MIT License 11/25/17<br></p>");
+document.write("<p id='txtio' style='font-family:monospace;font:outline;font-size:30px;width:100%;height:100%;position:absolute;padding:30px;top:-20px;left:-20px;'>Txt I/O Terminal<br>Created by Zakery Clarke<br>MIT License 11/25/17<br></p>");
 function textio(){
 alert("Text I/O\nCreated by Zakery Clarke\nMIT License 11/25/2017\n");
 }
@@ -31,7 +31,7 @@ cls();
 println("Text I/O");
 println("Created by Zakery Clarke");
 println("MIT License 11/25/2017");
-println("<a href='https://github.com/zakerytclarke/txtio.js/edit/master/txtio.js'>Github</a>"); 
+println("<a href='https://github.com/zakerytclarke/txtio.js'>Github</a>"); 
 println("Commands:");
 println("cls() clears the screen");
 println("print(text) prints text to the screen");
