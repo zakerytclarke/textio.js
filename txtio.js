@@ -34,7 +34,7 @@ function txtiohelp(){
   println("println(text) print text to the screen followed by a new line char");
   println("var name=input(msg) inputs a string from a dialog");
   println("toast(msg) shows an alert message");
-  println("textcolor(color) sets the text color");
-  println("textbgcolor(color) sets the bg color");
-  println("textsize(size) sets the text size"); 
+  println("txtcolor(color) sets the text color");
+  println("txtbgcolor(color) sets the bg color");
+  println("txtsize(size) sets the text size"); 
 }
