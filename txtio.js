@@ -1,4 +1,4 @@
-document.write("<p id='txtio' style='font-family:monospace;font:outline;font-size:30px;width:100%;height:100%;position:relative;padding:30px;padding:top:0px;top:-20px;left:-20px;'>Txt I/O Terminal<br>MIT License 11/25/17<br></p>");
+document.write("<p id='txtio' style='font-family:monospace;font:outline;font-size:30px;width:100%;position:static;padding:30px;padding:top:0px;top:-20px;left:-20px;'>Txt I/O Terminal<br>MIT License 11/25/17<br></p>");
 function cls(){
   document.getElementById("txtio").innerHTML="";
 }
@@ -8,13 +8,14 @@ function print(txt){
 function println(txt){
   document.getElementById("txtio").innerHTML+=txt+"<br>";
 }
-function textsize(size){
+function txtsize(size){
   document.getElementById("txtio").style.fontSize=size+"px";
 }
-function textcolor(color){
+function txtcolor(color){
   document.getElementById("txtio").style.color=color;
 }
-function textbgcolor(color){
+function txtbgcolor(color){
+  document.body.style.backgroundColor=color;
   document.getElementById("txtio").style.backgroundColor=color;
 }
 function toast(txt){
