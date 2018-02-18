@@ -1,4 +1,4 @@
-document.write("<p id='txtio' style='font-family:monospace;font:outline;font-size:30px;width:100%;height:100%;position:absolute;padding:30px;padding:top:0px;top:-20px;left:-20px;'>Txt I/O Terminal<br>MIT License 11/25/17<br></p>");
+document.write("<p id='txtio' style='font-family:monospace;font:outline;font-size:30px;width:100%;height:100%;position:relative;padding:30px;padding:top:0px;top:-20px;left:-20px;'>Txt I/O Terminal<br>MIT License 11/25/17<br></p>");
 function cls(){
   document.getElementById("txtio").innerHTML="";
 }
